@@ -1,0 +1,454 @@
+body{
+    max-width: 380px;
+    background-color: #f0ebe8;
+    margin: 0;
+}
+
+
+.nav--big{display: none;}
+
+.logoheder{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.teg > h2 , p {
+    margin: 0;
+}
+
+.teg{
+    margin-left: 10px;
+}
+
+.tegtext{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+}
+
+.tegmintext{
+    font-size: 16px;
+    color: #d4416a;
+    font-family: 'Bebas Neue';
+
+}
+
+.call{
+    width: auto;
+    width: 14px;
+    height: auto;
+}
+
+.numberphone{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.number1>a{
+    text-decoration: none;
+    
+}
+.number2>a{
+    text-decoration: none;
+   
+}
+
+.number11{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Bebas Neue';
+}
+
+.number22{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Bebas Neue';
+}
+
+.number11>span{
+    font-weight: 200;
+    color: #d4416a;
+    margin-left: 3px;
+}
+.number22>span{
+    font-weight: 200;
+    color: #d4416a;
+    margin-left: 3px;
+}
+
+.nav{
+    display: none;
+}
+
+
+main::before{
+    content: '';
+    background-image: url(./img/xvula.png) ;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+    height: 20px;
+}
+ 
+.main1{
+    background: linear-gradient(to left, #dfe1d3, #e0e2d5);
+    
+}
+
+.maintext{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.maintext11{
+    font-size: 16px;
+    font-family: 'Bebas Neue', sans-serif;   
+    margin-top: 70px;
+}
+
+.maintext11>span{
+    color: #d4416a;
+}
+
+.pomada{
+    margin-top: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imgpomada{
+    max-width: 423px;
+    max-height: 230px;
+}
+
+.price{
+    position: absolute;
+    display: block;
+    background: url(./img/price.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 80px;
+    min-height: 80px;
+    background-size: cover;
+    align-items: center;
+
+    transform: translate(-70%,-30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pricegrn{
+    display: block;
+    justify-items: center;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    transform: rotate(20deg);   
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.grn{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.button>span{
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.buttonblock{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.button{
+    min-height: 55px;
+    min-width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #d4416a;
+    border-bottom: 5px solid #333;
+}
+.button:hover{
+    border-bottom: none;
+}
+
+.texttovar{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.texttovaropys{
+    text-align: center;
+    
+    font-family: 'Bebas Neue';
+    color: #333333;
+    font-size: 14px;
+    max-width: 240px;
+}
+.main1::after{
+    content: '';
+    background-image: url(./img/waveDown.png);
+    background-repeat: repeat;
+    background-color: #e0e2d5 ;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+}
+
+.main2{
+    background-color: #f0ebe8;
+    
+}
+
+
+
+.main2pro{
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    color: #d4416a;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.headkylie{
+    display: flex;
+    justify-content: center;
+}
+
+.headkylieimg{
+    max-width: 40vw;
+    margin: auto;
+}
+
+.textheadkylie{
+    margin-top: 5vh;
+    display: flex;
+    justify-items: center;
+}
+
+.textheadkylieopys{
+    text-align: center;
+    margin: auto;
+    font-family: 'Bebas Neue';
+    color: #333333;
+    font-size: 14px;
+    max-width: 240px;
+}
+
+
+.main2::after{
+    content: '';
+    background-image: url(./img/xvula.png) ;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+    height: 20px;
+    background-color: #e0e2d5;
+ }
+
+ .baba--img{
+     display: none;
+ }
+
+ .lip{
+    display: none;
+}
+
+@media(min-width: 380px){
+    
+    body{
+        min-width: 380px;
+        max-width: 1024px;
+        
+    }
+
+    .wawe{
+        display: flex;
+        justify-content:space-between;
+        max-width: 800px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .logoheder{
+        justify-content: left;
+    }
+
+    .numberphone{
+        display: block;
+        justify-content: right;
+    }
+    .nav--big{display: none;}
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: auto;
+        flex-wrap: wrap;
+        order: 1;
+    }
+    .nav--a{
+        text-decoration: none;
+        color: #333333;
+        font-family: 'Bebas Neue';
+        font-size: 19px;
+        margin-right: 5px;
+
+    }
+
+    .maintext{
+        justify-content: left;
+        font-size: 16px;
+        font-family: 'Bebas Neue', sans-serif; 
+
+    }
+    .maintext11{
+        font-size: 24px;
+        font-family: 'Bebas Neue', sans-serif;   
+        margin-top: 70px;
+    }
+    .textbutton{
+        display: grid;
+    }
+    .buttonblock{
+        display: block;
+        justify-content: left;
+        order: 2;
+        
+    }
+
+    .texttovar{
+        display: block;
+        justify-content: left;
+        order: 1;
+    }
+    .texttovaropys{
+        text-align: left;
+        font-family: 'Bebas Neue';
+        color: #333333;
+        font-size: 19px;
+        max-width: 400px;
+    }
+    
+    
+    .headtext{
+        display: flex;
+        justify-content: center;
+    }
+
+    .textheadkylieopys{
+        text-align: left;
+        margin: auto;
+        font-family: 'Bebas Neue';
+        color: #333333;
+        font-size: 16px;
+        max-width: 620px;
+        line-height: 40px;
+        margin: 40px;
+    }
+    .button--block{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tovar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .baba{
+        display: flex;
+        order: 1;
+    }
+    
+
+    .baba--img{
+        height: 100%;
+        width: 100%;
+        bottom: 0px;
+        
+        display: inline-block;
+        
+    }
+    .imgpomada{
+       max-width: 100%;
+       height: auto;
+    }    
+    
+    .pomada{
+        position: absolute;
+        margin-top: 100px;
+    }
+
+    .main2pro{
+        font-size: 40px;
+    }
+    .lip{
+        display: none;
+    }
+}
+
+
+
+@media(min-width: 1024px){
+    body{
+       min-width: 1024px; 
+       max-width: 1554px;
+       
+    }
+
+    .wawe{
+        max-width: 1500px;
+    }
+    .nav{
+        display: none;
+    }
+    .nav--big{
+        order: 0;
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    .lip{
+        display: block;
+        position: absolute;
+    align-self: flex-end;
+    
+    margin-top: 96px;
+    width: 250px;
+    }
+    .headtextbutton{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
