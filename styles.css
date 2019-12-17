@@ -52,7 +52,7 @@ body{
 .numberphone{
     display: flex;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
 }
 
 .number1>a{
@@ -67,14 +67,14 @@ body{
 .number11{
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    color: #333333;
     font-family: 'Bebas Neue';
 }
 
 .number22{
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    color: #333333;
     font-family: 'Bebas Neue';
 }
 
@@ -395,6 +395,7 @@ body{
         max-width: 620px;
         line-height: 40px;
         margin: 40px;
+        z-index: 2;
     }
     .button--block{
         display: flex;
@@ -486,7 +487,7 @@ body{
         display: block;
         position: absolute;
     align-self: flex-end;
-    
+    z-index: 1;
     margin-top: 96px;
     width: 250px;
     }
